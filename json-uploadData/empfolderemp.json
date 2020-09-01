@@ -1,0 +1,5 @@
+[
+    {"index":1, "dmac":"DAF546GAHAJ98HG", "refpower":-79, "uuid":"GAHAJ98HG", "majorID":0, "rssi":-76, "minorID":2902, "type":4, "time":"2020-07-22 12:29:16"},
+    {"index":2, "dmac":"GAHADAF546J98HG", "refpower":-79, "uuid":"DAF546ASD", "majorID":0, "rssi":-76, "minorID":2903, "type":4, "time":"2020-07-22 12:29:17"}
+    
+]

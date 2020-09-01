@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="jsonDeviceDataModelStoreContainer" CdmEntityContainer="jsonDeviceDataEntities">
+    <EntitySetMapping Name="deviceDatas">
+      <EntityTypeMapping TypeName="jsonDeviceDataModel.deviceData">
+        <MappingFragment StoreEntitySet="deviceData">
+          <ScalarProperty Name="index" ColumnName="index" />
+          <ScalarProperty Name="dmac" ColumnName="dmac" />
+          <ScalarProperty Name="refpower" ColumnName="refpower" />
+          <ScalarProperty Name="uuid" ColumnName="uuid" />
+          <ScalarProperty Name="majorID" ColumnName="majorID" />
+          <ScalarProperty Name="rssi" ColumnName="rssi" />
+          <ScalarProperty Name="minorID" ColumnName="minorID" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

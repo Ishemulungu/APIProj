@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="jsonDataEntities-Web.config Connection String" description="jsonDataEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/jsonModel.csdl|res://*/jsonModel.ssdl|res://*/jsonModel.msl;provider=System.Data.SqlClient;provider connection string='data source=192.168.1.102,2021;initial catalog=jsonData;user id=Thendo;password=&quot;   &quot;;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Thendo\\source\\repos\\json-uploadData\\json-uploadData\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='jsonDataEntities']/@connectionString" />
+  </parameter>
+  <parameter name="jsonDataEntities1-Web.config Connection String" description="jsonDataEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/deviceDataModel.csdl|res://*/deviceDataModel.ssdl|res://*/deviceDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cloud-data.database.windows.net;initial catalog=jsonData;persist security info=True;user id=Thendo;password=Vhugala@16;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Thendo\\source\\repos\\json-uploadData\\json-uploadData\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='jsonDataEntities1']/@connectionString" />
+  </parameter>
+  <parameter name="jsonDeviceDataEntities-Web.config Connection String" description="jsonDeviceDataEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/deviceDataModel.csdl|res://*/deviceDataModel.ssdl|res://*/deviceDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cloud-data.database.windows.net;initial catalog=jsonData;persist security info=True;user id=Thendo;password=Vhugala@16;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Thendo\\source\\repos\\json-uploadData\\json-uploadData\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='jsonDeviceDataEntities']/@connectionString" />
+  </parameter>
+</parameters>

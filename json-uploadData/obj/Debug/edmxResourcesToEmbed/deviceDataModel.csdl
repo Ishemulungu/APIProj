@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="jsonDeviceDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="deviceData">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" />
+    <Property Name="dmac" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="refpower" Type="Int32" Nullable="false" />
+    <Property Name="uuid" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="majorID" Type="Int32" Nullable="false" />
+    <Property Name="rssi" Type="Int32" Nullable="false" />
+    <Property Name="minorID" Type="Int32" Nullable="false" />
+    <Property Name="type" Type="Int32" Nullable="false" />
+    <Property Name="time" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="jsonDeviceDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="deviceDatas" EntityType="Self.deviceData" />
+  </EntityContainer>
+</Schema>

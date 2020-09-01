@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="jsonDataModelStoreContainer" CdmEntityContainer="jsonDataEntities">
+    <EntitySetMapping Name="empjasondatas">
+      <EntityTypeMapping TypeName="jsonDataModel.empjasondata">
+        <MappingFragment StoreEntitySet="empjasondata">
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
